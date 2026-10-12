@@ -1,0 +1,4 @@
+add_library(Regression SHARED src/Regression.cpp)
+target_compile_definitions(Regression PRIVATE REGRESSION_EXPORTS)
+target_include_directories(Regression PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_compile_features(Regression PUBLIC cxx_std_20)

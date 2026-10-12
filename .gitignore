@@ -1,0 +1,12 @@
+build/
+
+.vs/
+
+*.user
+
+*.pdb
+*.exp
+
+.vscode/
+
+AnomalyDetection_SDK/
