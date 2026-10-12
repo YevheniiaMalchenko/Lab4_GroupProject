@@ -1,12 +1,61 @@
+# ====================================================================
+# .gitignore for C++ CMake & Visual Studio Project (AnomalyLibProject)
+# ====================================================================
+
+# Build & Compilation outputs
 build/
-
-.vs/
-
-*.user
-
-*.pdb
+build*/
+bin/
+lib/
+out/
+dist/
+*.exe
+*.dll
+*.lib
 *.exp
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.so
+*.dylib
 
+# CMake generated files and caches
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Visual Studio & MSVC artifacts
+.vs/
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.vcxproj.user
+
+# IDEs & Editors
 .vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
 
-AnomalyDetection_SDK/
+# Archives & Temporary files
+*.zip
+*.7z
+*.tar.gz
+*.rar
+*.log
+
+# Except generated delivery SDK source files if desired:
+# (SDK distribution archive and build dirs are ignored above)
